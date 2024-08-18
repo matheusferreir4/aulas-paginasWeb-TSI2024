@@ -1,0 +1,108 @@
+/* Define a cor de fundo para o corpo do documento como branco */
+body{
+	background-color: white;
+}
+
+/* Estiliza o título h1 */
+h1{ 
+	/* Centraliza o texto */
+	text-align: center;
+	/* Define o tamanho da fonte como 20 pixels */
+	font-size: 20px;
+	/* Define a cor do texto como branco */
+	color: #ffff;
+	/* Define a cor de fundo como preto */
+	background-color: rgb(0, 0, 0);
+	/* Adiciona uma sombra à caixa do título */
+	box-shadow: 2px 2px 5px #555;
+}
+
+/* Estiliza o elemento span */
+span{
+	/* Adiciona sublinhado ao texto */
+	text-decoration: underline;
+}
+
+/* Estiliza o elemento com ID "titulo-A" */
+#titulo-A{
+	/* Define a cor do texto como branco */
+	color: #ffff;
+	/* Define a cor de fundo como preto */
+	background-color: rgb(0, 0, 0);
+	/* Adiciona uma sombra à caixa do título */
+	box-shadow: 2px 2px 5px #555;
+}
+
+/* Estiliza o elemento com ID "titulo-B" */
+#titulo-B{
+	/* Define a cor do texto como branco */
+	color: #ffff;
+	/* Define a cor de fundo como preto */
+	background-color: rgb(0, 0, 0);
+	/* Adiciona uma sombra à caixa do título */
+	box-shadow: 2px 2px 5px #555;
+}
+
+/* Estiliza as listas não ordenadas */
+li{
+	/* Define uma margem superior de 25 pixels */
+	margin-top: 25px;
+}
+
+/* Define a classe de destaque vermelho */
+.destaque-red{
+	/* Define a cor do texto como vermelho */
+	color: red;
+}
+
+/* Define a classe de destaque azul */
+.destaque-blue{
+	/* Define a cor do texto como azul */
+	color: blue;
+}
+
+/* Define a classe de modelo de caixa */
+.box-model{
+	/* Define a cor de fundo como amarelo */
+	background-color: yellow;
+	/* Adiciona uma borda sólida de 1 pixel preta */
+	border: solid 1px black;
+	/* Define margens e preenchimento usando a propriedade "margin" */
+	margin: 25px 42%;
+	/* Define preenchimento interno */
+	padding: 15px;
+	/* Adiciona cantos arredondados à caixa */
+	border-radius: 10px;
+	/* Define o alinhamento do texto como centralizado */
+	text-align: center;
+	/* Define a família da fonte como "sans-serif" */
+	font-family: sans-serif;
+	/* Adiciona uma sombra à caixa */
+	box-shadow: 2px 2px 5px #999;
+	/* Define o cursor do mouse como uma mão apontando */
+	cursor: pointer;
+}
+
+/* Define o estilo do botão com ID "btn" */
+#btn{
+	/* Define um gradiente de cor de fundo */
+	background: linear-gradient(135deg, #8545DD, #EBEDB2);
+	/* Centraliza o texto */
+	text-align: center;
+	/* Define a largura como 100 pixels */
+	width: 100px;
+	/* Define o preenchimento interno */
+	padding: 10px;
+	/* Define uma margem inferior de 50 pixels */
+	margin-bottom: 50px;
+	/* Define a cor do texto como branco */
+	color: #ffff;
+	/* Adiciona cantos arredondados ao botão */
+	border-radius: 10px;
+	/* Adiciona uma sombra ao texto */
+	text-shadow: 2px 2px 5px #777;
+	/* Transforma o texto em maiúsculas */
+	text-transform: uppercase;
+	/* Centraliza o botão horizontalmente e define uma margem vertical */
+	margin: 50px auto;
+}

@@ -1,0 +1,52 @@
+```css
+/* Define o preenchimento de todas as divs */
+div{
+	padding: 13px;
+	/* Define o preenchimento superior como 0 pixels */
+	padding-top: 0px;
+	/* Define a largura máxima como 500 pixels */
+	max-width: 500px;
+}
+
+/* Estiliza a div com classe "margin" */
+.margin{
+	/* Centraliza o texto */
+	text-align: center;
+	/* Adiciona uma borda tracejada */
+	border: dashed;
+	/* Centraliza a div horizontalmente */
+	margin: auto;
+}
+
+/* Estiliza a div com classe "border" */
+.border{
+	/* Adiciona uma borda sólida preta */
+	border: solid 1px black;
+	/* Define a cor de fundo como verde */
+	background-color: #98bf21;
+	/* Centraliza o texto */
+	text-align: center;
+}
+
+/* Estiliza a div com classe "padding" */
+.padding{
+	/* Adiciona uma borda sólida preta */
+	border: solid 1px black;
+	/* Centraliza o texto */
+	text-align: center;
+	/* Define a cor de fundo como branca */
+	background-color: #fff;
+}
+
+/* Estiliza a div com classe "content" */
+.content{
+	/* Adiciona uma borda tracejada */
+	border: dashed;
+	/* Centraliza o texto */
+	text-align: center;
+	/* Define a cor de fundo como branca */
+	background-color: #fff;
+	/* Define o preenchimento inferior como 100 pixels */
+	padding-bottom: 100px;
+}
+```

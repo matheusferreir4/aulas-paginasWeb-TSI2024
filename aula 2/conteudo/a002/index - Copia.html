@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+
+	<!--Formas de aumentar a visibilidade do site-->
+
+	<meta name="description" content="Segunda aula de HTML5 da disciplina de páginas web">
+
+	<meta name="keywords" content="html5, aula, instituto federal, barbacena">
+
+	<meta name="robots" content="index, follow">
+
+	<!--Adicionando FAvicon-->
+
+	<link rel="shortcut icon" href="favicon.ico">
+
+
+	<title>Aula 2</title>
+</head>
+<body>
+	<h1>Aula 2</h1>
+	<p>Vamos falar de tábelas</p>
+
+	<!--Criando uma tabela-->
+	<table border="1">
+
+		<caption>
+			Avaliações das disciplinas
+		</caption>
+		
+		<!--Criando uma linha-->
+		<tr>
+
+			<tr>
+				<!--Criando o cabeçalho-->
+				<th>Avaliações</th>
+				<th>Valor</th>
+				<th>Dificuldade</th>
+
+
+			</tr>
+
+			<!--Criando uma coluna-->
+			<td>Prova 1</td>
+			<td>30 pontos</td>
+			<td>Médio</td>
+		</tr>
+
+		<tr>
+			
+			<td>Prova 2</td>
+			<td>40 pontos</td>
+			<td>Médio</td>
+		</tr>
+
+		<tr>
+			
+			<td>Prova 3</td>
+			<td>50 pontos</td>
+			<td>Difícil</td>
+
+		</tr>
+	</table>
+
+	<p>Vamos falar de fórmularios</p>
+
+	<!-- Criando formúlarios-->
+	<form>
+
+		<!--A tag <label> serve para associação-->
+		<label>
+			Nome:
+			<input type="text">
+
+		</label>
+
+		<br>
+		<label>
+
+			Senha:
+			<input type="text">
+
+		</label>
+		
+		<br>
+		<label>
+
+			<!---->
+			<input type="checkbox">
+			Lembrar senha
+
+		</label>
+
+		<br>
+		<label>
+
+			<br>
+			<!--type="checkbox" para marcar-->
+
+			<!--type="radio" name="curso"-->
+			Curso:<br>
+			<input type="radio" name="curso"> Técnico
+
+			<label>
+
+			<br>
+			<input type="radio" name="curso"> Graduação
+			
+
+		</label>
+			
+
+		</label>
+
+		<label>
+		<hr>
+		<p>Insira seu câmpus:</p>
+
+		Campus<br>
+
+		<!--Selecionando opções-->
+		<select>
+			
+			<option selected="select">Barbacena</option>
+			<option>São João Del-Rei</option>
+			<option>Juiz de Fora</option>
+			<option>Rio Pomba</option>
+		</select>
+		</label>
+
+		<hr>
+		<label>
+			
+			Endereço:<br>
+			<textarea>Insira seu endereço</textarea>
+		</label>
+
+		<label>
+
+			<!--Criando um botão para salvar/enviar-->
+			<br>
+			<input type="submit" value="Salvar">
+
+		</label>
+			
+	</form>
+</body>
+</html>
