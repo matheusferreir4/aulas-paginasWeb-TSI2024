@@ -1,0 +1,36 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#div_1, #div_2, #div_3{
+	width: 33.33333%;
+	height: 100vh;
+}
+
+#div_1{
+	background-color: yellow;
+	float: left;
+}
+
+.round{
+	width: 150px;
+	height: 150px;
+	background-color: #ccc;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 150px;
+	/*margin-left: calc(50% -75px);*/
+	margin: auto;
+}
+
+#div_2{
+	background-color: blue;
+	float: left;
+	/*width: calc(100% - 400px)*/
+}
+
+#div_3{
+	background-color: green;
+	float: right;
+}
