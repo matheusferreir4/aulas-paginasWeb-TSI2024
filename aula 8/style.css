@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.colum1 {
+    background-color: #2196F3;
+    float: left;
+    height: 100vh;
+    width: 50%;
+}
+
+.colum2 {
+    background-color: #009688;
+    float: left;
+    height: 100vh;
+    width: 35%;
+}
+
+.colum3 {
+    background-color:  #FFC107;
+    float: left;
+    height: 100vh;
+    width: 15%;
+}
+
+@media (max-width: 1000px) {
+    .colum1 {
+        width: 60%;
+        float: left;
+    }
+
+    .colum2 {
+        width: 40%;
+        float: left;
+    }
+
+    .colum3 {
+        width: 100vw;
+    }
+}
